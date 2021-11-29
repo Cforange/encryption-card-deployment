@@ -1,0 +1,12 @@
+clear all;
+close all;
+clc;
+M.s = [5,2];
+M.s1 = [5];
+M.s2 = [2];
+M.d = [1,6];
+M.d1 = [1];
+M.d2 = [6];
+M.bitrate = [40,10];
+filename=['M','.mat'];
+save(filename,'M');
